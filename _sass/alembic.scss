@@ -9,3 +9,23 @@
   "flex",
   "theme"
 ;
+
+.article {
+  img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  thead {
+      display: none;
+  }
+
+  td {
+      padding: 1px;
+  }
+}
+
+.feature {
+  text-shadow: 0 0 1rem #000, 0 0 .5rem #000;
+}

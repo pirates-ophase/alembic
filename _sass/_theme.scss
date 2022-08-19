@@ -455,3 +455,14 @@ pre code {
     overflow-x: scroll;
   }
 }
+
+/*! MARK: custom changes from here until... */
+header div.container {
+  display: flex;
+  justify-content: right !important;
+
+  @include breakpoint(break-1) {
+      justify-content: center !important;
+  }
+}
+/*! MARK: ...here */
